@@ -1,0 +1,13 @@
+.blog-pagination {
+	font-weight: 600;
+}
+
+.blog-pagination a {
+	color: #FF7D00;
+}
+
+.blog-pagination a:hover, 
+.blog-pagination a:active, 
+.blog-pagination a:visited {
+	color: #FF7D00;
+}

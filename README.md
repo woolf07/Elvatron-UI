@@ -1,2 +1,8 @@
 # Elvatron-UI
-simple templates comp - package manager like npm
+Simple templates comp - No handle package manager like npm
+
+--> UI Componente:
+>< Hero banner Header
+>< Items grid with text
+>< Scroll top btn
+>< Pagination nav

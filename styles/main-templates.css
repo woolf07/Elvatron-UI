@@ -1,0 +1,22 @@
+/*import style sheet here*/
+@import "elv-grid-items.css";
+@import	"elv-ytmodal.css";
+@import	"elv-button-scroll.css";
+@import	"elv-hero-header.css";
+@import "elv-blog-pag.css"
+
+.orange-main-color {
+	color: #FF7D00;
+}
+
+.orange-bg-main-color {
+	background-color: #FF7D00;
+}
+
+.gray-color {
+	color: #666;
+}
+
+.gray-bg-color {
+	color: #666;
+}

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>scroll up button - elvantro</title>
+	<!-- styles thirdParty -->
+	<link href="http://netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.min.css" rel="stylesheet" id="bootstrap-css">
+	<!-- custome styles -->
+	<link rel="stylesheet" href="styles/main-templates.css">
+</head>
+<body style="background-color: #ececec">
+	
+
+<div class="container-fluid">
+
+	<div style="height: 1000px"><h1>Lorem Ipsum</h1></div>
+
+	<!-- start -->
+	<div class="wrap-scroll-top">
+		<a href="#top" class="btn-scroll-top">
+			<div class="arrow-climb-icon"></div>
+		 	<p>Arriba</p>
+		</a>
+	</div>
+	<!-- ./end -->
+
+</div>	
+
+</body>
+	<!-- scripts thirdParty -->
+	<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+	<script src="http://netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/js/bootstrap.min.js"></script>
+	<script src="scripts/tp-v.js"></script>
+
+	<!-- scroll top -->
+	<script>
+		var $btnScroll = $("a[href='#top']");
+		var $wrapBtnScroll = $(".wrap-scroll-top");
+		$wrapBtnScroll.hide();
+
+		$(window).scroll(function() {
+		    if($(window).scrollTop() > 70) {
+		        $wrapBtnScroll.show();
+		    } else {
+		        $wrapBtnScroll.hide();
+		    }
+		});
+
+		$btnScroll.click(function() {
+		  $("html, body").animate({ scrollTop: 0 }, "slow");
+		  return false;
+		});
+
+	</script>
+</html>
